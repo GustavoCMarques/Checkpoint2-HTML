@@ -1,0 +1,29 @@
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1c1b25;
+  color: white;
+}
+.img-footer {
+  width: 8vh;
+  height: auto;
+}
+footer nav a {
+  text-decoration: none;
+  flex-grow: 1;
+  padding-top: 3%;
+  text-align: center;
+}
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+footer nav a:hover {
+  background-color: white;
+}
