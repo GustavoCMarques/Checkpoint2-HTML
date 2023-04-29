@@ -1,0 +1,36 @@
+h2 {
+    padding: 0 3.5%;    
+}
+
+.cabecalho {
+    background-color: #1c1b25;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+.cabecalho nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.cabecalho nav a {
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.cabecalho nav a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1.38s;
+}
