@@ -10,14 +10,23 @@
   font-size: 14px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+}
+.tit-pages{
+  margin-bottom: 1rem;
+  padding-right: 57px;
 }
 .conteudo div{
+  margin-top: 1rem;
   width: 20%;
-  height: 100%;
+  height: 93%;
+  text-indent: 57px;
 }
 .conteudo div figure img {
   width: 20vh;
   height: auto;
+  margin-bottom: 1rem;
+  margin-right: 2.3rem;
 }
 .conteudo div figure {
   display: flex;
@@ -47,5 +56,10 @@
 */
 .conteudo div:hover {
   border: 2px solid black;
+  border-radius: 10px;
+  transition: 1.28s;
+}
+.conteudo div figcaption:hover {
+  border: 2px solid #aeaeaec5;
   border-radius: 10px;
 }
