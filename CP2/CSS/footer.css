@@ -25,5 +25,6 @@ footer nav {
   cursor: pointer;
 }
 footer nav a:hover {
-  background-color: white;
+  background-color: rgba(160, 156, 156, 0.826);
+  transition: 1.5s;
 }
